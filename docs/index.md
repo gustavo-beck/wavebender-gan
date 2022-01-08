@@ -22,13 +22,7 @@
 
 ## Summary
 
-Lorem Ipsum is simply dummy text of the printing and 
-typesetting industry. Lorem Ipsum has been the industry's 
-standard dummy text ever since the 1500s, when an unknown 
-printer took a galley of type and scrambled it to make a 
-type specimen book. It has survived not only five centuries, 
-but also the leap into electronic typesetting, 
-remaining essentially unchanged.
+Modeling humans' speech is a challenging task that originally required a coalition between phoneticians and speech engineers. Yet, the latter, disengaged from phoneticians, have strived for evermore natural speech synthesis in the absence of an awareness of speech modeling due to data-driven and ever-growing deep learning models. By virtue of decades of detachment between phoneticians and speech engineers, this thesis presents a deep learning architecture, alleged \textit{Wavebender GAN}, that predicts mel-spectrograms that are processed by a vocoder, HiFi-GAN, to synthesize speech. \textit{Wavebender GAN} pushes for progress in both speech science and technology, allowing phoneticians to manipulate stimuli and test phonological models supported by high-quality synthesized speeches generated through interpretable low-level signal properties. This work sets a new step of cooperation for phoneticians and speech engineers.
 
 ## Architecture
 
