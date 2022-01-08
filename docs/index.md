@@ -146,7 +146,7 @@ Code is available on our [Github repository][github_link], along with a pre-trai
       </td>
       <td class="tg-0pky">
         <audio controls>
-          <source src="./audios/HiFiGAN/.wav" type="audio/hifi_1.wav">
+          <source src="./audios/HiFiGAN/hifi_1.wav" type="audio/hifi_1.wav">
         </audio>
       </td>
     </tr>
