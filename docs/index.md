@@ -14,7 +14,7 @@
 </head>
 <!-- This post presents Wavebender GAN a deep architecture for high-quality and controllable speech synthesis through interpretable features and exchangeable neural synthesizers -->
 
-[github_link]: https://https://github.com/gustavo-beck/wavebender-gan
+[github_link]: https://github.com/gustavo-beck/wavebender-gan
 [gustav_profile]: https://people.kth.se/~ghe/
 [gustavo_profile]: https://www.linkedin.com/in/gustavotbeck/
 [ulme_profile]: https://www.kth.se/profile/ulme
