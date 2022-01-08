@@ -19,10 +19,12 @@
 [gustavo_profile]: https://www.linkedin.com/in/gustavotbeck/
 [ulme_profile]: https://www.kth.se/profile/ulme
 [zofia_profile]: https://www.kth.se/profile/malisz
+[hifi_link]: https://github.com/jik876/hifi-gan
+
 
 ## Summary
 
-Modeling humans' speech is a challenging task that originally required a coalition between phoneticians and speech engineers. Yet, the latter, disengaged from phoneticians, have strived for evermore natural speech synthesis in the absence of an awareness of speech modeling due to data-driven and ever-growing deep learning models. By virtue of decades of detachment between phoneticians and speech engineers, this thesis presents a deep learning architecture, alleged \textit{Wavebender GAN}, that predicts mel-spectrograms that are processed by a vocoder, HiFi-GAN, to synthesize speech. \textit{Wavebender GAN} pushes for progress in both speech science and technology, allowing phoneticians to manipulate stimuli and test phonological models supported by high-quality synthesized speeches generated through interpretable low-level signal properties. This work sets a new step of cooperation for phoneticians and speech engineers.
+Modeling humans' speech is a challenging task that originally required a coalition between phoneticians and speech engineers. Yet, the latter, disengaged from phoneticians, have strived for evermore natural speech synthesis in the absence of an awareness of speech modeling due to data-driven and ever-growing deep learning models. By virtue of decades of detachment between phoneticians and speech engineers, this thesis presents a deep learning architecture, alleged Wavebender GAN, that predicts mel-spectrograms that are processed by a vocoder, [HiFi-GAN][hifi_link], to synthesize speech. Wavebender GAN pushes for progress in both speech science and technology, allowing phoneticians to manipulate stimuli and test phonological models supported by high-quality synthesized speeches generated through interpretable low-level signal properties. This work sets a new step of cooperation for phoneticians and speech engineers.
 
 ## Architecture
 
