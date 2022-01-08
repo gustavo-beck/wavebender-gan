@@ -1,5 +1,4 @@
 # Wavebender GAN:
-### Deep architecture for high-quality and controllable speech synthesis through interpretable features and exchangeable neural synthesizers
 ##### [Gustavo Teodoro Döhler Beck][gustavo_profile], [Ulme Wennberg][ulme_profile], [Zofia Malisz][zofia_profile], [Gustav Eje Henter][gustav_profile]
 
 
@@ -12,10 +11,9 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 </head>
-<!-- This post presents Neural-HMMs an autoregressive attention-free deep generative model for synthesising high-quality Mel-Spectrogram representations. -->
+<!-- This post presents Wavebender GAN a deep architecture for high-quality and controllable speech synthesis through interpretable features and exchangeable neural synthesizers -->
 
-[arxiv_link]: https://arxiv.org/abs/2108.13320
-[github_link]: https://github.com/shivammehta007/Neural-HMM
+[github_link]: https://https://github.com/gustavo-beck/wavebender-gan
 [gustav_profile]: https://people.kth.se/~ghe/
 [gustavo_profile]: https://www.linkedin.com/in/gustavotbeck/
 [ulme_profile]: https://www.kth.se/profile/ulme
@@ -24,24 +22,17 @@
 
 ## Summary
 
-In this paper we show that classic, HMM-based speech synthesis and modern, neural text-to-speech (TTS) can be combined to obtain the best of both worlds. We call this new approach “neural HMM TTS”. The new system we describe:
-* Is smaller and simpler than Tacotron 2
-* Learns to speak and align faster
-* Does not risk breaking down into gibberish
-* Is fully probabilistic
-* Allows easy control over speaking rate
-* Achieves the same naturalness as Tacotron 2
-
-To our knowledge, this is the first time HMM-based speech synthesis has achieved a speech quality on par with neural TTS.
-
-For more information, please [read our preprint here][arxiv_link].
+Lorem Ipsum is simply dummy text of the printing and 
+typesetting industry. Lorem Ipsum has been the industry's 
+standard dummy text ever since the 1500s, when an unknown 
+printer took a galley of type and scrambled it to make a 
+type specimen book. It has survived not only five centuries, 
+but also the leap into electronic typesetting, 
+remaining essentially unchanged.
 
 ## Architecture
 
-![Neural HMM TTS](./images/NeuralHMMTTS.png "Architecture of Neural HMM TTS")
-
-<!-- ## Web Example
-<iframe url="http://130.237.67.68:8501/" height="400" width="100%" title="Web Example"> </iframe> -->
+![Wavebender GAN](./images/WavebenderGAN.png "Architecture of Wavebender GAN")
 
 ## Code
 
