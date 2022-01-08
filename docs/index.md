@@ -126,9 +126,9 @@ Code is available on our [Github repository][github_link], along with a pre-trai
   <thead>
     <tr>
       <th class="tg-0pky">Type</th>
-      <th class="tg-0pky" colspan="2">Original</th>
-      <th class="tg-0pky" colspan="2">Wavebender GAN</th>
-      <th class="tg-0pky" colspan="2">HiFi-GAN</th>
+      <th class="tg-0pky" colspan="1">Original</th>
+      <th class="tg-0pky" colspan="1">Wavebender GAN</th>
+      <th class="tg-0pky" colspan="1">HiFi-GAN</th>
     </tr>
   </thead>
   <tbody>
