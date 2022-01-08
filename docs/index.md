@@ -349,7 +349,7 @@ For simplicity, all of the following manipulations were done on a particular sam
 
 ### F0-contour (pitch)
 
-For this experiment, we present how Wavebender GAN is capable of reducing (factor of 0.7) and increasing (factor of 1.3) the pitch (F0-contour) of the speaker in extreme scenarios.
+For this experiment, we present how Wavebender GAN is capable of reducing and increasing the pitch (F0-contour) of the speaker. 
 
 <table class="tg">
   <thead>
@@ -391,3 +391,52 @@ For this experiment, we present how Wavebender GAN is capable of reducing (facto
     </tr>
   </tbody>
 </table>
+
+### F1 and F2
+
+Something
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-0pky" colspan="1">Fools</th>
+      <th class="tg-0pky" colspan="1">Forms</th>
+      <th class="tg-0pky" colspan="1">Frogs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_low_f1.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_forms.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_high_f1.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### Spectral centroid
+
+Something
+
+<audio controls>
+  <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_high_spectral_centroid.wav" type="audio/wav">
+</audio>
+        
+### Spectral Slope
+
+Something
+
+<audio controls>
+  <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_low_spectral_slope.wav" type="audio/wav">
+</audio>
