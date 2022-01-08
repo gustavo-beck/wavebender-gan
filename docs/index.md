@@ -142,7 +142,196 @@ Code is available on our [Github repository][github_link], along with a pre-trai
       </td>
       <td class="tg-0pky">
         <audio controls>
-          <source src="./audios/HiFiGAN/hifi_1.wav" type="audio/hifi_1.wav">
+          <source src="./audios/HiFiGAN/hifi_1.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+  </tbody>
+  
+  <tbody>
+    <tr>
+      <td nowrap class="tg-0pky"><b>Sentence 2</b></td>
+      <td class="tg-0pky">
+        <audio id="audio-small" controls>
+          <source src="./audios/Original/original_2.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/WavebenderGAN/Reproduction/wavebendergan_2.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/HiFiGAN/hifi_2.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+  </tbody>
+  
+  <tbody>
+    <tr>
+      <td nowrap class="tg-0pky"><b>Sentence 3</b></td>
+      <td class="tg-0pky">
+        <audio id="audio-small" controls>
+          <source src="./audios/Original/original_3.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/WavebenderGAN/Reproduction/wavebendergan_3.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/HiFiGAN/hifi_3.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+  </tbody>
+  
+  <tbody>
+    <tr>
+      <td nowrap class="tg-0pky"><b>Sentence 4</b></td>
+      <td class="tg-0pky">
+        <audio id="audio-small" controls>
+          <source src="./audios/Original/original_4.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/WavebenderGAN/Reproduction/wavebendergan_4.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/HiFiGAN/hifi_4.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+  </tbody>
+  
+  <tbody>
+    <tr>
+      <td nowrap class="tg-0pky"><b>Sentence 5</b></td>
+      <td class="tg-0pky">
+        <audio id="audio-small" controls>
+          <source src="./audios/Original/original_5.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/WavebenderGAN/Reproduction/wavebendergan_5.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/HiFiGAN/hifi_5.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+  </tbody>
+  
+  <tbody>
+    <tr>
+      <td nowrap class="tg-0pky"><b>Sentence 6</b></td>
+      <td class="tg-0pky">
+        <audio id="audio-small" controls>
+          <source src="./audios/Original/original_6.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/WavebenderGAN/Reproduction/wavebendergan_6.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/HiFiGAN/hifi_6.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+  </tbody>
+  
+  <tbody>
+    <tr>
+      <td nowrap class="tg-0pky"><b>Sentence 7</b></td>
+      <td class="tg-0pky">
+        <audio id="audio-small" controls>
+          <source src="./audios/Original/original_7.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/WavebenderGAN/Reproduction/wavebendergan_7.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/HiFiGAN/hifi_7.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+  </tbody>
+  
+  <tbody>
+    <tr>
+      <td nowrap class="tg-0pky"><b>Sentence 8</b></td>
+      <td class="tg-0pky">
+        <audio id="audio-small" controls>
+          <source src="./audios/Original/original_8.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/WavebenderGAN/Reproduction/wavebendergan_8.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/HiFiGAN/hifi_8.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+  </tbody>
+  
+  <tbody>
+    <tr>
+      <td nowrap class="tg-0pky"><b>Sentence 9</b></td>
+      <td class="tg-0pky">
+        <audio id="audio-small" controls>
+          <source src="./audios/Original/original_9.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/WavebenderGAN/Reproduction/wavebendergan_9.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/HiFiGAN/hifi_9.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+  </tbody>
+  
+  <tbody>
+    <tr>
+      <td nowrap class="tg-0pky"><b>Sentence 10</b></td>
+      <td class="tg-0pky">
+        <audio id="audio-small" controls>
+          <source src="./audios/Original/original_10.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/WavebenderGAN/Reproduction/wavebendergan_10.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/HiFiGAN/hifi_10.wav" type="audio/wav">
         </audio>
       </td>
     </tr>
