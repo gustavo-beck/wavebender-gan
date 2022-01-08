@@ -1,6 +1,7 @@
 # Wavebender GAN:
 ### Deep architecture for high-quality and controllable speech synthesis through interpretable features and exchangeable neural synthesizers
 ##### [Gustavo Teodoro Döhler Beck][gustavo_profile], [Ulme Wennberg][ulme_profile], [Zofia Malisz][zofia_profile], [Gustav Eje Henter][gustav_profile]
+
 ---
 
 [paper_link]: https://arxiv.org/abs/2108.13320
@@ -16,6 +17,7 @@
 [tacotron2_link]: https://github.com/NVIDIA/tacotron2
 [nvidia_waveglow_link]: https://drive.google.com/file/d/1rpK8CzAAirq9sWZhe9nlfvxMF1dRgFbF/view
 [hifi_link]: https://github.com/jik876/hifi-gan
+
 
 This page is tutorial and repo is under construction.
 
