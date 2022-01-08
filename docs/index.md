@@ -126,153 +126,27 @@ Code is available on our [Github repository][github_link], along with a pre-trai
   <thead>
     <tr>
       <th class="tg-0pky">Type</th>
-      <th class="tg-0pky" colspan="2">Proposed neural HMM TTS</th>
-      <th class="tg-0pky" colspan="2">Tacotron 2 baseline</th>
+      <th class="tg-0pky" colspan="2">Original</th>
+      <th class="tg-0pky" colspan="2">Wavebender GAN</th>
+      <th class="tg-0pky" colspan="2">HiFi-GAN</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th class="tg-fymr">Condition</th>
-      <th class="tg-fymr">2 states per phone (NH2)</th>
-      <th class="tg-fymr">1 state per phone (NH1)</th>
-      <th class="tg-fymr">w/o post-net (T2-P)</th>
-      <th class="tg-fymr">w/ post-net (T2+P)</th>
-    </tr>
-    <tr>
       <td nowrap class="tg-0pky"><b>Sentence 1</b></td>
       <td class="tg-0pky">
         <audio id="audio-small" controls>
-          <source src="./audio/NeuralHMM/2State/NeuralHMM1AR2State_hvd_001.wav" type="audio/wav">
+          <source src="./audios/Original/original_1.wav" type="audio/wav">
         </audio>
       </td>
       <td class="tg-0pky">
         <audio controls>
-          <source src="./audio/NeuralHMM/1State/NeuralHMM1AR1State_hvd_001.wav" type="audio/wav">
+          <source src="./audios/WavebenderGAN/Reproduction/wavebendergan_1.wav" type="audio/wav">
         </audio>
       </td>
       <td class="tg-0pky">
         <audio controls>
-          <source src="./audio/Tacotron/TacotronWOPostnet/Tacotron_hvd_001.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/Tacotron/TacotronWPostnet/Tacotron_Postnet_hvd_001.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-    <tr>
-      <td nowrap class="tg-0pky"><b>Sentence 2</b></td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/NeuralHMM/2State/NeuralHMM1AR2State_hvd_002.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/NeuralHMM/1State/NeuralHMM1AR1State_hvd_002.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/Tacotron/TacotronWOPostnet/Tacotron_hvd_002.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/Tacotron/TacotronWPostnet/Tacotron_Postnet_hvd_002.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-    <tr>
-      <td nowrap class="tg-0pky"><b>Sentence 3</b></td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/NeuralHMM/2State/NeuralHMM1AR2State_hvd_003.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/NeuralHMM/1State/NeuralHMM1AR1State_hvd_003.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/Tacotron/TacotronWOPostnet/Tacotron_hvd_003.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/Tacotron/TacotronWPostnet/Tacotron_Postnet_hvd_003.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-    <tr>
-      <td nowrap class="tg-0pky"><b>Sentence 4</b></td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/NeuralHMM/2State/NeuralHMM1AR2State_hvd_004.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/NeuralHMM/1State/NeuralHMM1AR1State_hvd_004.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/Tacotron/TacotronWOPostnet/Tacotron_hvd_004.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/Tacotron/TacotronWPostnet/Tacotron_Postnet_hvd_004.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-    <tr>
-      <td nowrap class="tg-0pky"><b>Sentence 5</b></td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/NeuralHMM/2State/NeuralHMM1AR2State_hvd_005.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/NeuralHMM/1State/NeuralHMM1AR1State_hvd_005.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/Tacotron/TacotronWOPostnet/Tacotron_hvd_005.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/Tacotron/TacotronWPostnet/Tacotron_Postnet_hvd_005.wav" type="audio/wav">
-        </audio>
-      </td>
-    </tr>
-    <tr>
-      <td nowrap class="tg-0pky"><b>Sentence 6</b></td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/NeuralHMM/2State/NeuralHMM1AR2State_hvd_006.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/NeuralHMM/1State/NeuralHMM1AR1State_hvd_006.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/Tacotron/TacotronWOPostnet/Tacotron_hvd_006.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td class="tg-0pky">
-        <audio controls>
-          <source src="./audio/Tacotron/TacotronWPostnet/Tacotron_Postnet_hvd_006.wav" type="audio/wav">
+          <source src="./audios/HiFiGAN/.wav" type="audio/hifi_1.wav">
         </audio>
       </td>
     </tr>
