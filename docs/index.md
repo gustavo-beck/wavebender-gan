@@ -1211,22 +1211,3 @@ These audio samples use a stronger vocoder ([HiFi-GAN version LJ_FT_T2_V1][HiFi_
 
   </tbody>
 </table>
-
-
-## Citation information
-
-```
-@article{mehta2021neural,
-  title={Neural {HMM}s are all you need (for high-quality attention-free {TTS})},
-  author={Mehta, Shivam and Sz{\'e}kely, {\'E}va and Beskow, Jonas and Henter, Gustav Eje},
-  journal={arXiv preprint arXiv:2108.13320},
-  year={2021}
-}
-```
-
-<audio controls>
-    <source src="./audio/NeuralHMM/thank_you.wav" type="audio/wav">
-</audio>
-
-
-[![Visits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fshivammehta007.github.io%2FNeural-HMM%2F&count_bg=%23409CFF&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://shivammehta007.github.io/Neural-HMM/)
