@@ -345,7 +345,7 @@ Code is available on our [Github repository][github_link], along with a pre-trai
 
 It is extremely important to record that this project has the purpose of achieving naturalness and controllable speech. Whereas the previous examples focused on evaluating the speech naturalness reconstruction, this section focuses on performing similar analyses but for manipulated speech. The manipulation consists of extracting the low-level signal properties and multiplying one of the properties at a time by a specific scale (e.g., multiplying F0-contour by a factor of 1.3 across the entire signal).
 
-For simplicity, all of the following manipulations were done on a particular sample (LJ026-0014) from the [LJ speech][ljspeech_link].
+For simplicity, all of the following manipulations were done on a particular sample (LJ026-0014) from the [LJ speech][ljspeech_link] dataset.
 
 ### F0-contour (pitch)
 
