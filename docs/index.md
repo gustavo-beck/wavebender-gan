@@ -349,7 +349,7 @@ For simplicity, all of the following manipulations were done on a particular sam
 
 ### F0-contour (pitch)
 
-For this experiment, we present how Wavebender GAN is capable of reducing (factor of 0.7) and increasing (factor of 1.3) the pitch (F0-contour) of the speaker.
+For this experiment, we present how Wavebender GAN is capable of reducing (factor of 0.7) and increasing (factor of 1.3) the pitch (F0-contour) of the speaker in extreme scenarios.
 
 <table class="tg">
   <thead>
