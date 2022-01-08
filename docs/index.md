@@ -355,7 +355,9 @@ For this experiment, we present how Wavebender GAN is capable of reducing (facto
   <thead>
     <tr>
       <th class="tg-0pky" colspan="1">-30%</th>
+      <th class="tg-0pky" colspan="1">-15%</th>
       <th class="tg-0pky" colspan="1">LJ026-0014</th>
+      <th class="tg-0pky" colspan="1">+15%</th>
       <th class="tg-0pky" colspan="1">+30%</th>
     </tr>
   </thead>
@@ -363,7 +365,12 @@ For this experiment, we present how Wavebender GAN is capable of reducing (facto
     <tr>
       <td class="tg-0pky">
         <audio id="audio-small" controls>
-          <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_low_f0.wav" type="audio/wav">
+          <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_low_30_f0_contour.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio id="audio-small" controls>
+          <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_low_15_f0_contour.wav" type="audio/wav">
         </audio>
       </td>
       <td class="tg-0pky">
@@ -373,7 +380,12 @@ For this experiment, we present how Wavebender GAN is capable of reducing (facto
       </td>
       <td class="tg-0pky">
         <audio controls>
-          <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_high_f0.wav" type="audio/wav">
+          <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_high_15_f0_contour.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_high_30_f0_contour.wav" type="audio/wav">
         </audio>
       </td>
     </tr>
