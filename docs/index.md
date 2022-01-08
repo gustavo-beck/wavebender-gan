@@ -1,5 +1,6 @@
-# Neural HMMs are all you need (for high-quality attention-free TTS)
-##### [Shivam Mehta][shivam_profile], [Éva Székely][eva_profile], [Jonas Beskow][jonas_profile], and [Gustav Eje Henter][gustav_profile]
+# Wavebender GAN:
+### Deep architecture for high-quality and controllable speech synthesis through interpretable features and exchangeable neural synthesizers
+##### [Gustavo Teodoro Döhler Beck][gustavo_profile], [Ulme Wennberg][ulme_profile], [Zofia Malisz][zofia_profile], [Gustav Eje Henter][gustav_profile]
 
 
 <head> 
@@ -15,10 +16,10 @@
 
 [arxiv_link]: https://arxiv.org/abs/2108.13320
 [github_link]: https://github.com/shivammehta007/Neural-HMM
-[shivam_profile]: https://www.kth.se/profile/smehta
-[eva_profile]: https://www.kth.se/profile/szekely
-[jonas_profile]: https://www.kth.se/profile/beskow
 [gustav_profile]: https://people.kth.se/~ghe/
+[gustavo_profile]: https://www.linkedin.com/in/gustavotbeck/
+[ulme_profile]: https://www.kth.se/profile/ulme
+[zofia_profile]: https://www.kth.se/profile/malisz
 [HiFi_GAN_LJ_FT_V1_link]: https://github.com/jik876/hifi-gan#pretrained-model
 
 ## Summary
