@@ -38,8 +38,6 @@ remaining essentially unchanged.
 
 Code is available on our [Github repository][github_link], along with a pre-trained model.
 
-## Listening examples
-
 <style type="text/css">
   .tg {
     border-collapse: collapse;
