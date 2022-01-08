@@ -394,7 +394,7 @@ For this experiment, we present how Wavebender GAN is capable of reducing and in
 
 ### F1 and F2
 
-Something
+Something about manipulating F1, that impacts F2 (very correlated), and this changes consonants and vowels.
 
 <table class="tg">
   <thead>
@@ -427,7 +427,7 @@ Something
 
 ### Spectral centroid
 
-Something
+Something about "tong-tied"
 
 <audio controls>
   <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_high_spectral_centroid.wav" type="audio/wav">
@@ -435,7 +435,7 @@ Something
         
 ### Spectral Slope
 
-Something
+Something about the volume
 
 <audio controls>
   <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_low_spectral_slope.wav" type="audio/wav">
