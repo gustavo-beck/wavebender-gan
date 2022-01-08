@@ -17,6 +17,6 @@
 [hifi_link]: https://github.com/jik876/hifi-gan
 
 
-This page is tutorial and repo is under construction.
+This tutorial and repo is under construction.
 
 For audio examples, visit our [demo page][demo_page].
