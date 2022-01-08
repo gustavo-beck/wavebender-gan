@@ -20,11 +20,14 @@
 [ulme_profile]: https://www.kth.se/profile/ulme
 [zofia_profile]: https://www.kth.se/profile/malisz
 [hifi_link]: https://github.com/jik876/hifi-gan
-
+[ljspeech_link]: https://keithito.com/LJ-Speech-Dataset/
 
 ## Summary
 
 Modeling humans' speech is a challenging task that originally required a coalition between phoneticians and speech engineers. Yet, the latter, disengaged from phoneticians, have strived for evermore natural speech synthesis in the absence of an awareness of speech modeling due to data-driven and ever-growing deep learning models. By virtue of decades of detachment between phoneticians and speech engineers, this thesis presents a deep learning architecture, alleged Wavebender GAN, that predicts mel-spectrograms that are processed by a vocoder, [HiFi-GAN][hifi_link], to synthesize speech. Wavebender GAN pushes for progress in both speech science and technology, allowing phoneticians to manipulate stimuli and test phonological models supported by high-quality synthesized speeches generated through interpretable low-level signal properties. This work sets a new step of cooperation for phoneticians and speech engineers.
+
+The samples presented in this page are from [LJ speech][ljspeech_link] dataset, which is a public dataset that consists of 13,100 short audio
+clips of a single speaker. The same dataset was used to train Wavebender GAN.
 
 ## Architecture
 
@@ -116,7 +119,7 @@ Code is available on our [Github repository][github_link], along with a pre-trai
 }
 </style>
 
-### Reproducibility 
+## Reproducibility 
 
 <table class="tg">
   <thead>
@@ -338,4 +341,36 @@ Code is available on our [Github repository][github_link], along with a pre-trai
   </tbody>
 </table>
 
-### NEW TABLE
+## Manipulation  
+
+### F0-contour (pitch)
+ndjwndjwnedjwnkdej
+
+<table class="tg">
+  <thead>
+    <tr>
+      <th class="tg-0pky" colspan="1">-30%</th>
+      <th class="tg-0pky" colspan="1">LJ026-0014</th>
+      <th class="tg-0pky" colspan="1">+30%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="tg-0pky">
+        <audio id="audio-small" controls>
+          <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_low_f0.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_high_f0.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
+  </tbody>
+</table>
