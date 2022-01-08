@@ -9,7 +9,6 @@
 [ulme_profile]: https://www.kth.se/profile/ulme
 [zofia_profile]: https://www.kth.se/profile/malisz
 [demo_page]: https://gustavo-beck.github.io/wavebender-gan/
-[pretrained_model_link]: 
 [ljspeech_link]: https://keithito.com/LJ-Speech-Dataset/
 [github_link]: https://github.com/gustavo-beck/wavebender-gan
 [github_new_issue_link]: https://github.com/gustavo-beck/wavebender-gan/issues/new
