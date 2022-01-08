@@ -399,9 +399,9 @@ Something
 <table class="tg">
   <thead>
     <tr>
-      <th class="tg-0pky" colspan="1">Fools</th>
+      <th class="tg-0pky" colspan="1">Fools (-30% of F1)</th>
       <th class="tg-0pky" colspan="1">Forms</th>
-      <th class="tg-0pky" colspan="1">Frogs</th>
+      <th class="tg-0pky" colspan="1">Frogs (+30% of F1)</th>
     </tr>
   </thead>
   <tbody>
