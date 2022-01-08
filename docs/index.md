@@ -343,7 +343,7 @@ Code is available on our [Github repository][github_link], along with a pre-trai
 
 ## Manipulation  
 
-It is extremely important to record that this project has the purpose of achieving naturalness and controllable speech. Whereas the previous examples focused on evaluating the speech naturalness reconstruction, this section focuses on performing similar analyses but for manipulated speech. The manipulation consists of extracting the low-level signal properties and multiplying one of the properties at a time by a specific scale (e.g., multiplying F0-contour by a factor of 1.3 across the entire signal).
+It is important to recall that this project has the purpose of achieving naturalness and controllable speech. Whereas the previous examples focused on evaluating the speech naturalness reconstruction against a state-of-the-art system ([HiFi-GAN][hifi_link]), this section leverages the fact that our system can also manipulate speech, which is not possible with other neural synthesizers. The manipulation consists of extracting the low-level signal properties and multiplying one of the properties at a time by a specific scale (e.g., multiplying F0-contour by a factor of 1.3 across the entire signal).
 
 For simplicity, all of the following manipulations were done on a particular sample (LJ026-0014) from the [LJ speech][ljspeech_link] dataset.
 
