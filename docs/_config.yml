@@ -1,5 +1,5 @@
 title: Wavebender GAN
 theme: jekyll-theme-dinky
-description: Deep architecture for high-quality and controllable speech synthesis through interpretable features and exchangeable neural synthesizers
+description: Deep architecture for high-quality and controllable speech synthesis
 show_downloads: False
 logo: ./images/WavebenderGAN.png
