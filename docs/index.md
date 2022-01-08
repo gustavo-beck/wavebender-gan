@@ -1,4 +1,5 @@
-# Wavebender GAN: Deep architecture for high-quality and controllable speech synthesis through interpretable features and exchangeable neural synthesizers
+# Wavebender GAN:
+### Deep architecture for high-quality and controllable speech synthesis through interpretable features and exchangeable neural synthesizers
 ##### [Gustavo Teodoro Döhler Beck][gustavo_profile], [Ulme Wennberg][ulme_profile], [Zofia Malisz][zofia_profile], [Gustav Eje Henter][gustav_profile]
 
 
@@ -121,7 +122,7 @@ Code is available on our [Github repository][github_link], along with a pre-trai
 }
 </style>
 
-### Stimuli from listening test
+### Reproducibility 
 
 <table class="tg">
   <thead>
