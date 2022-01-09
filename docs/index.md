@@ -24,15 +24,17 @@ An architecture for phonetically meaningful speech manipulation
 
 ## Summary
 
-The goal of this work is to develop new speech technology to meet the needs speech-sciences research. Specifically, our paper presents Wavebender GAN, a deep-learning architecture for manipulating phonetically-relevant speech parameters properties whilst remaining perceptually close to natural speech. Our example system demonstrated on this webpage was trained on the [LJ speech][ljspeech_link] dataset and uses the [HiFi-GAN][hifi_link] neural vocoder to produce waveforms, but the proposed method applies to other training data, vocoders, and speech parameters as well.
+The goal of this work is to develop new speech technology to meet the needs of speech-sciences research. Specifically, our paper presents Wavebender GAN, a deep-learning architecture for manipulating phonetically-relevant speech parameters whilst remaining perceptually close to natural speech.
 
-## Architecture
+Our example system demonstrated on this webpage was trained on the [LJ Speech][ljspeech_link] dataset and uses the [HiFi-GAN][hifi_link] neural vocoder to produce waveforms, but the proposed method applies to other training data, vocoders, and speech parameters as well.
+
+## Visual overview
 
 ![Wavebender GAN](./images/WavebenderGAN.png "Wavebender GAN architecture and workflow")
 
 ## Code
 
-Code is provided in our [GitHub repository][github_link].
+Code is provided in [our GitHub repository][github_link].
 
 <style type="text/css">
   .tg {
@@ -118,7 +120,7 @@ Code is provided in our [GitHub repository][github_link].
 
 ## Copy synthesis
 
-These audio stimuli are taken from the listening test in Sec. 5.3 of the paper and illustrate the effects that copy synthesis (i.e., speech reconstruction) with different components has on the audio.
+These audio stimuli illustrate the effects that copy synthesis (i.e., speech reconstruction) with different components has on the audio. All files are taken directly from the listening test in Sec. 5.3 of the paper.
 
 <table class="tg">
   <thead>
@@ -391,7 +393,7 @@ Wavebender GAN is capable of reducing and increasing the pitch (f0 contour) of t
 
 ### Formants
 
-These examples illustrate the effects of locally scaling the first formant, F1, for the last word of the utterance (&ldquo;forms&rdquo;). Since F1 and F2 are strongly correlated, we use the method described in Sec. 4.2 of the paper to predict new F2 values when manipulating F1.
+These examples illustrate the effects of locally scaling the first formant, F1, for the last word of the utterance (i.e., &ldquo;forms&rdquo;). Since F1 and F2 are strongly correlated, we use the method described in Sec. 4.2 of the paper to predict new F2 values when manipulating F1.
 
 <table class="tg">
   <thead>
@@ -444,7 +446,7 @@ These examples illustrate the effects of locally scaling the first formant, F1, 
 
 ### Spectral centroid
 
-The following example suggests that global manipulation of spectral centroid (here multiplied by 1.3), although accurate in terms of relative MSE, is not particularly meaningful. The most notable effect is a kind of lisp as [&#643;] becomes [&#952;].
+The following example suggests that global manipulation of spectral centroid (here multiplied by 1.3), although accurate in terms of relative MSE, is not particularly meaningful. The most notable effect is a kind of lisp, wherein [&#643;] becomes [&#952;].
 
 <audio controls>
   <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_high_spectral_centroid.wav" type="audio/wav">
@@ -452,7 +454,7 @@ The following example suggests that global manipulation of spectral centroid (he
         
 ### Spectral slope
 
-Global scaling of the spectral slope mainly appears to affect signal gain, as shown in the below example where spectral slope has been multiplied by 0.2. This could be because of the significant correlation between speech loudness and spectral slope in human speech production.
+Global scaling of the spectral slope mainly appears to affect signal gain, as shown in the below example (spectral slope multiplied by 0.2). This effect might be a consequence of the significant correlation between speech loudness and spectral slope in human speech production.
 
 <audio controls>
   <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_low_spectral_slope.wav" type="audio/wav">
@@ -460,6 +462,6 @@ Global scaling of the spectral slope mainly appears to affect signal gain, as sh
 
 ## Disentanglement
 
-To quantify the extent of speech-parameter disentanglement with Wavebender GAN, this matrix shows the relative MSE for all speech parameters (vertical axis) as an effect of globally scaling each speech parameter (horizontal axis) in isolation by a factor 1.3, keeping all other speech parameters fixed. As a a baseline, the first column shows relative MSE values during copy-synthesis (no manipulation).
+To quantify the extent of speech-parameter disentanglement with Wavebender GAN, this matrix shows the relative MSE for all speech parameters (vertical axis) as an effect of globally scaling each speech parameter (horizontal axis) by a factor 1.3, whilst keeping all other speech parameters fixed. As a baseline, the first column shows relative MSE values during copy-synthesis (no manipulation).
 
-![Disentanglement matrix](./images/heatmap_manipulated.png "Matrix of MSE in parameter y when scaling parameter x")
+![Disentanglement matrix](./images/heatmap.png "Matrix of MSE in parameter y when scaling parameter x")
