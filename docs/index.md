@@ -1,5 +1,5 @@
-# Wavebender GAN:
-Deep architecture for high-quality and controllable speech synthesis through interpretable features and exchangeable neural synthesizers
+# Wavebender GAN
+An architecture for phonetically meaningful speech manipulation
 ##### [Gustavo Teodoro Döhler Beck][gustavo_profile], [Ulme Wennberg][ulme_profile], [Zofia Malisz][zofia_profile], [Gustav Eje Henter][gustav_profile]
 
 
@@ -12,7 +12,7 @@ Deep architecture for high-quality and controllable speech synthesis through int
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 </head>
-<!-- This post presents Wavebender GAN a deep architecture for high-quality and controllable speech synthesis through interpretable features and exchangeable neural synthesizers -->
+<!-- This post presents Wavebender GAN, a deep architecture for controllable, high-quality speech synthesis intended for speech-sciences research -->
 
 [github_link]: https://github.com/gustavo-beck/wavebender-gan
 [gustav_profile]: https://people.kth.se/~ghe/
@@ -24,18 +24,15 @@ Deep architecture for high-quality and controllable speech synthesis through int
 
 ## Summary
 
-Modeling humans' speech is a challenging task that originally required a coalition between phoneticians and speech engineers. Yet, the latter, disengaged from phoneticians, have strived for evermore natural speech synthesis in the absence of an awareness of speech modeling due to data-driven and ever-growing deep learning models. By virtue of decades of detachment between phoneticians and speech engineers, this thesis presents a deep learning architecture, alleged Wavebender GAN, that predicts mel-spectrograms that are processed by a vocoder, [HiFi-GAN][hifi_link], to synthesize speech. Wavebender GAN pushes for progress in both speech science and technology, allowing phoneticians to manipulate stimuli and test phonological models supported by high-quality synthesized speeches generated through interpretable low-level signal properties. This work sets a new step of cooperation for phoneticians and speech engineers.
-
-The samples presented in this page are from [LJ speech][ljspeech_link] dataset, which is a public dataset that consists of 13,100 short audio
-clips of a single speaker. The same dataset was used to train Wavebender GAN.
+The goal of this work is to develop new speech technology to meet the needs speech-sciences research. Specifically, our paper presents Wavebender GAN, a deep-learning architecture for manipulating phonetically-relevant speech parameters properties whilst remaining perceptually close to natural speech. Our example system demonstrated on this webpage was trained on the [LJ speech][ljspeech_link] dataset and uses the [HiFi-GAN][hifi_link] neural vocoder to produce waveforms, but the proposed method applies to other training data, vocoders, and speech parameters as well.
 
 ## Architecture
 
-![Wavebender GAN](./images/WavebenderGAN.png "Architecture of Wavebender GAN")
+![Wavebender GAN](./images/WavebenderGAN.png "Wavebender GAN architecture and workflow")
 
 ## Code
 
-Code is available on our [Github repository][github_link], along with a pre-trained model.
+Code is provided in our [GitHub repository][github_link].
 
 <style type="text/css">
   .tg {
@@ -119,14 +116,16 @@ Code is available on our [Github repository][github_link], along with a pre-trai
 }
 </style>
 
-## Reproducibility 
+## Copy synthesis
+
+These audio stimuli are taken from the listening test in Sec. 5.3 of the paper and illustrate the effects that copy synthesis (i.e., speech reconstruction) with different components has on the audio.
 
 <table class="tg">
   <thead>
     <tr>
       <th class="tg-0pky">Type</th>
-      <th class="tg-0pky" colspan="1">Original</th>
-      <th class="tg-0pky" colspan="1">Wavebender GAN</th>
+      <th class="tg-0pky" colspan="1">Recorded natural speech</th>
+      <th class="tg-0pky" colspan="1">Wavebender GAN&rarr;HiFi-GAN</th>
       <th class="tg-0pky" colspan="1">HiFi-GAN</th>
     </tr>
   </thead>
@@ -341,15 +340,13 @@ Code is available on our [Github repository][github_link], along with a pre-trai
   </tbody>
 </table>
 
-## Manipulation  
+## Speech manipulation  
 
-It is important to recall that this project has the purpose of achieving naturalness and controllable speech. Whereas the previous examples focused on evaluating the speech naturalness reconstruction against a state-of-the-art system ([HiFi-GAN][hifi_link]), this section leverages the fact that our system can also manipulate speech, which is not possible with other neural synthesizers. The manipulation consists of extracting the low-level signal properties and multiplying one of the properties at a time by a specific scale (e.g., multiplying F0-contour by a factor of 1.3 across the entire signal).
+The below proof-of-concept examples illustrate the effects of using Wavebender GAN to manipulate different core speech parameters. For consistency, all manipulations were performed on the same LJ Speech utterance from the test set, namely LJ026-0014.
 
-For simplicity, all of the following manipulations were done on a particular sample (LJ026-0014) from the [LJ speech][ljspeech_link] dataset.
+### Pitch
 
-### F0-contour (pitch)
-
-For this experiment, we present how Wavebender GAN is capable of reducing and increasing the pitch (F0-contour) of the speaker. 
+Wavebender GAN is capable of reducing and increasing the pitch (f0 contour) of the speech. These examples demonstrate global scaling of the f0 parameter.
 
 <table class="tg">
   <thead>
@@ -392,20 +389,22 @@ For this experiment, we present how Wavebender GAN is capable of reducing and in
   </tbody>
 </table>
 
-### F1 and F2
+### Formants
 
-Something about manipulating F1, that impacts F2 (very correlated), and this changes consonants and vowels.
+These examples illustrate the effects of locally scaling the first formant, F1, for the last word of the utterance (&ldquo;forms&rdquo;). Since F1 and F2 are strongly correlated, we use the method described in Sec. 4.2 of the paper to predict new F2 values when manipulating F1.
 
 <table class="tg">
   <thead>
     <tr>
+      <th class="tg-0pky" colspan="1"></th>
       <th class="tg-0pky" colspan="1">Fools (-30% of F1)</th>
       <th class="tg-0pky" colspan="1">Forms</th>
-      <th class="tg-0pky" colspan="1">Frogs (+30% of F1)</th>
+      <th class="tg-0pky" colspan="1">Farms (+30% of F1)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td nowrap class="tg-0pky"><b>Last word only</b></td>
       <td class="tg-0pky">
         <audio controls>
           <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_low_f1.wav" type="audio/wav">
@@ -422,35 +421,45 @@ Something about manipulating F1, that impacts F2 (very correlated), and this cha
         </audio>
       </td>
     </tr>
+    <tr>
+      <td nowrap class="tg-0pky"><b>Manipulation in context</b></td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_low_f1_full.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014.wav" type="audio/wav">
+        </audio>
+      </td>
+      <td class="tg-0pky">
+        <audio controls>
+          <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_high_f1_full.wav" type="audio/wav">
+        </audio>
+      </td>
+    </tr>
   </tbody>
 </table>
 
-To listen to the entire sample, yet only manipulating the particular word forms:
-
-* Fools (-30%)
-
-<audio controls>
-  <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_low_f1_full.wav" type="audio/wav">
-</audio>
-
-* Frogs (+30%)
-
-<audio controls>
-  <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_high_f1_full.wav" type="audio/wav">
-</audio>
-
 ### Spectral centroid
 
-Something about "tong-tied"
+The following example suggests that global manipulation of spectral centroid (here multiplied by 1.3), although accurate in terms of relative MSE, is not particularly meaningful. The most notable effect is a kind of lisp as [&#643;] becomes [&#952;].
 
 <audio controls>
   <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_high_spectral_centroid.wav" type="audio/wav">
 </audio>
         
-### Spectral Slope
+### Spectral slope
 
-Something about the volume
+Global scaling of the spectral slope mainly appears to affect signal gain, as shown in the below example where spectral slope has been multiplied by 0.2. This could be because of the significant correlation between speech loudness and spectral slope in human speech production.
 
 <audio controls>
   <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_low_spectral_slope.wav" type="audio/wav">
 </audio>
+
+## Disentanglement
+
+To quantify the extent of speech-parameter disentanglement with Wavebender GAN, this matrix shows the relative MSE for all speech parameters (vertical axis) as an effect of globally scaling each speech parameter (horizontal axis) in isolation by a factor 1.3, keeping all other speech parameters fixed. As a a baseline, the first column shows relative MSE values during copy-synthesis (no manipulation).
+
+![Disentanglement matrix](./images/Heatmap.png "Matrix of MSE in parameter y when scaling parameter x")
