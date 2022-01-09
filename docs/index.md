@@ -399,7 +399,7 @@ These examples illustrate the effects of locally scaling the first formant, F1, 
       <th class="tg-0pky" colspan="1"></th>
       <th class="tg-0pky" colspan="1">Fools (-30% of F1)</th>
       <th class="tg-0pky" colspan="1">Forms</th>
-      <th class="tg-0pky" colspan="1">Farms (+30% of F1)</th>
+      <th class="tg-0pky" colspan="1">Frogs (+30% of F1)</th>
     </tr>
   </thead>
   <tbody>
