@@ -462,4 +462,4 @@ Global scaling of the spectral slope mainly appears to affect signal gain, as sh
 
 To quantify the extent of speech-parameter disentanglement with Wavebender GAN, this matrix shows the relative MSE for all speech parameters (vertical axis) as an effect of globally scaling each speech parameter (horizontal axis) in isolation by a factor 1.3, keeping all other speech parameters fixed. As a a baseline, the first column shows relative MSE values during copy-synthesis (no manipulation).
 
-![Disentanglement matrix](./images/Heatmap.png "Matrix of MSE in parameter y when scaling parameter x")
+![Disentanglement matrix](./images/heatmap_manipulated.png "Matrix of MSE in parameter y when scaling parameter x")
