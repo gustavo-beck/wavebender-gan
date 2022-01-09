@@ -401,7 +401,7 @@ Something about manipulating F1, that impacts F2 (very correlated), and this cha
     <tr>
       <th class="tg-0pky" colspan="1">Fools (-30% of F1)</th>
       <th class="tg-0pky" colspan="1">Forms</th>
-      <th class="tg-0pky" colspan="1">Farms (+30% of F1)</th>
+      <th class="tg-0pky" colspan="1">Frogs (+30% of F1)</th>
     </tr>
   </thead>
   <tbody>
@@ -424,6 +424,20 @@ Something about manipulating F1, that impacts F2 (very correlated), and this cha
     </tr>
   </tbody>
 </table>
+
+To listen to the entire sample, yet only manipulating the particular word forms:
+
+* Fools (-30%)
+
+<audio controls>
+  <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_low_f1_full.wav" type="audio/wav">
+</audio>
+
+* Frogs (+30%)
+
+<audio controls>
+  <source src="./audios/WavebenderGAN/Manipulation/LJ026-0014_high_f1_full.wav" type="audio/wav">
+</audio>
 
 ### Spectral centroid
 
