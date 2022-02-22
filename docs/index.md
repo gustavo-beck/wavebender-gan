@@ -466,4 +466,15 @@ To quantify the extent of speech-parameter disentanglement with Wavebender GAN, 
 
 ![Disentanglement matrix](./images/heatmap.png "Matrix of MSE in parameter y when scaling parameter x")
 
+## Citation information
+
+```
+@inproceedings{beck2022wavebender,
+   title={Wavebender {GAN}: {A}n architecture for phonetically meaningful speech manipulation},
+   author={Döhler Beck, Gustavo Teodoro and Wennberg, Ulme and Malisz, Zofia and Henter, Gustav Eje},
+   booktitle={Proc. ICASSP},
+   year={2022}
+ }
+```
+
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgustavo-beck.github.io%2Fwavebender-gan%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
