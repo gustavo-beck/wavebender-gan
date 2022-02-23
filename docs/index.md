@@ -2,7 +2,6 @@
 An architecture for phonetically meaningful speech manipulation
 ##### [Gustavo Teodoro Döhler Beck][gustavo_profile], [Ulme Wennberg][ulme_profile], [Zofia Malisz][zofia_profile], [Gustav Eje Henter][gustav_profile]
 
-
 <head> 
 <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -21,12 +20,13 @@ An architecture for phonetically meaningful speech manipulation
 [zofia_profile]: https://www.kth.se/profile/malisz
 [hifi_link]: https://github.com/jik876/hifi-gan
 [ljspeech_link]: https://keithito.com/LJ-Speech-Dataset/
+[paper_link]: https://arxiv.org/abs/2202.10973
 
 ## Summary
 
 The goal of this work is to develop new speech technology to meet the needs of speech-sciences research. Specifically, our paper presents Wavebender GAN, a deep-learning architecture for manipulating phonetically-relevant speech parameters whilst remaining perceptually close to natural speech.
 
-Our example system demonstrated on this webpage was trained on the [LJ Speech][ljspeech_link] dataset and uses the [HiFi-GAN][hifi_link] neural vocoder to produce waveforms, but the proposed method applies to other training data, vocoders, and speech parameters as well.
+Our example system demonstrated on this webpage was trained on the [LJ Speech][ljspeech_link] dataset and uses the [HiFi-GAN][hifi_link] neural vocoder to produce waveforms, but the proposed method applies to other training data, vocoders, and speech parameters as well. A deeper explanation can be found on our paper [Wavebender GAN: An architecture for phonetically meaningful speech manipulation][paper_link].
 
 ## Visual overview
 
