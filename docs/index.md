@@ -26,7 +26,9 @@ An architecture for phonetically meaningful speech manipulation
 
 The goal of this work is to develop new speech technology to meet the needs of speech-sciences research. Specifically, our paper presents Wavebender GAN, a deep-learning architecture for manipulating phonetically-relevant speech parameters whilst remaining perceptually close to natural speech.
 
-Our example system demonstrated on this webpage was trained on the [LJ Speech][ljspeech_link] dataset and uses the [HiFi-GAN][hifi_link] neural vocoder to produce waveforms, but the proposed method applies to other training data, vocoders, and speech parameters as well. A deeper explanation can be found on our paper [Wavebender GAN: An architecture for phonetically meaningful speech manipulation][paper_link].
+Our example system demonstrated on this webpage was trained on the [LJ Speech][ljspeech_link] dataset and uses the [HiFi-GAN][hifi_link] neural vocoder to produce waveforms, but the proposed method applies to other training data, vocoders, and speech parameters as well.
+
+For more information, please see [our paper at ICASSP 2022][paper_link].
 
 ## Visual overview
 
@@ -34,7 +36,7 @@ Our example system demonstrated on this webpage was trained on the [LJ Speech][l
 
 ## Code
 
-Code is provided in [our GitHub repository][github_link].
+Code will be made available in [our GitHub repository][github_link] shortly.
 
 <style type="text/css">
   .tg {
