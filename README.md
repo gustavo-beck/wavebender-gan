@@ -17,7 +17,7 @@
 [hifi_link]: https://github.com/jik876/hifi-gan
 
 
-This tutorial and repo is under construction.
+This tutorial and repo is under construction (releasing date: 08/05/2022 after 6pm CET).
 
 This is the official code repository for the paper [Wavebender GAN: An architecture for phonetically meaningful speech manipulation][paper_link].
 
