@@ -1,0 +1,4 @@
+waveglow_consistency_check/mel_LJ001-0025_1.wav_synthesis.wav
+waveglow_consistency_check/mel_LJ001-0025_2.wav_synthesis.wav
+waveglow_consistency_check/mel_LJ001-0025_3.wav_synthesis.wav
+waveglow_consistency_check/LJ001-0025.wav

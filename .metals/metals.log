@@ -1,0 +1,149 @@
+[0m2021.04.18 14:19:12 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client vscode 1.55.2.[0m
+[0m2021.04.18 14:19:13 INFO  time: initialize in 1.23s[0m
+[0m2021.04.18 14:19:15 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.18 14:19:15 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.18 23:18:54 INFO  shutting down Metals[0m
+[0m2021.04.20 14:21:34 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client vscode 1.55.2.[0m
+[0m2021.04.20 14:21:38 INFO  time: initialize in 4.46s[0m
+[0m2021.04.20 14:21:44 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.20 14:21:44 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.20 18:32:57 INFO  shutting down Metals[0m
+[0m2021.05.02 17:26:24 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client vscode 1.55.2.[0m
+[0m2021.05.02 17:26:25 INFO  time: initialize in 1.37s[0m
+[0m2021.05.02 17:26:27 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.02 17:26:27 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.05.02 17:33:15 INFO  shutting down Metals[0m
+[0m2021.05.17 15:51:29 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client vscode 1.56.2.[0m
+[0m2021.05.17 15:51:30 INFO  time: initialize in 1.24s[0m
+[0m2021.05.17 15:51:31 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.17 15:51:31 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.05.17 17:29:51 INFO  shutting down Metals[0m
+[0m2021.06.11 15:03:06 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.57.0.[0m
+[0m2021.06.11 15:03:08 INFO  time: initialize in 1.69s[0m
+[0m2021.06.11 15:03:08 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.11 15:03:08 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.11 15:40:05 INFO  shutting down Metals[0m
+[0m2021.07.01 11:02:26 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.57.1.[0m
+[0m2021.07.01 11:02:29 INFO  time: initialize in 2.15s[0m
+[0m2021.07.01 11:02:29 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.01 11:02:29 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.01 11:13:18 INFO  shutting down Metals[0m
+[0m2021.07.02 16:12:26 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.57.1.[0m
+[0m2021.07.02 16:12:28 INFO  time: initialize in 2.09s[0m
+[0m2021.07.02 16:12:28 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.02 16:12:28 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.02 16:13:31 INFO  shutting down Metals[0m
+[0m2021.07.06 09:24:48 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.57.1.[0m
+[0m2021.07.06 09:24:51 INFO  time: initialize in 2.83s[0m
+[0m2021.07.06 09:24:51 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.06 09:24:51 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.06 11:16:57 INFO  shutting down Metals[0m
+[0m2021.07.06 16:07:55 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.57.1.[0m
+[0m2021.07.06 16:07:59 INFO  time: initialize in 3.82s[0m
+[0m2021.07.06 16:07:59 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.06 16:07:59 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.06 17:25:21 INFO  shutting down Metals[0m
+[0m2021.07.12 12:30:39 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.58.0.[0m
+[0m2021.07.12 12:30:41 INFO  time: initialize in 2.42s[0m
+[0m2021.07.12 12:30:41 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.12 12:30:41 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.12 16:50:27 INFO  shutting down Metals[0m
+[0m2021.07.13 10:41:55 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.58.0.[0m
+[0m2021.07.13 10:41:57 INFO  time: initialize in 2.03s[0m
+[0m2021.07.13 10:41:57 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.13 10:41:57 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.15 10:17:06 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.58.1.[0m
+[0m2021.07.15 10:17:08 INFO  time: initialize in 1.55s[0m
+[0m2021.07.15 10:17:15 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.15 10:17:15 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.15 17:05:33 INFO  shutting down Metals[0m
+[0m2021.07.15 18:54:00 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.58.1.[0m
+[0m2021.07.15 18:54:01 INFO  time: initialize in 0.7s[0m
+[0m2021.07.15 18:54:02 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.15 18:54:02 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.15 20:20:35 INFO  shutting down Metals[0m
+[0m2021.07.16 11:01:52 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.58.2.[0m
+[0m2021.07.16 11:01:53 INFO  time: initialize in 1.43s[0m
+[0m2021.07.16 11:01:55 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.16 11:01:55 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.18 23:20:50 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.58.2.[0m
+[0m2021.07.18 23:20:51 INFO  time: initialize in 1.23s[0m
+[0m2021.07.18 23:20:57 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.18 23:20:57 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.19 02:08:48 INFO  shutting down Metals[0m
+[0m2021.07.19 08:35:32 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.58.2.[0m
+[0m2021.07.19 08:35:33 INFO  time: initialize in 0.97s[0m
+[0m2021.07.19 08:35:35 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.19 08:35:35 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.19 08:43:48 INFO  shutting down Metals[0m
+[0m2021.07.20 12:20:57 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.58.2.[0m
+[0m2021.07.20 12:21:01 INFO  time: initialize in 4.37s[0m
+[0m2021.07.20 12:21:08 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.20 12:21:08 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.20 12:30:51 INFO  shutting down Metals[0m
+[0m2021.07.21 08:37:11 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.58.2.[0m
+[0m2021.07.21 08:37:11 INFO  time: initialize in 0.78s[0m
+[0m2021.07.21 08:37:12 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.21 08:37:12 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.21 08:37:45 INFO  shutting down Metals[0m
+[0m2021.07.21 17:46:05 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.58.2.[0m
+[0m2021.07.21 17:46:06 INFO  time: initialize in 0.8s[0m
+[0m2021.07.21 17:46:07 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.21 17:46:07 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.21 17:49:04 INFO  shutting down Metals[0m
+[0m2021.07.24 17:07:51 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.58.2.[0m
+[0m2021.07.24 17:07:52 INFO  time: initialize in 1s[0m
+[0m2021.07.24 17:07:54 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.24 17:07:54 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.24 17:08:45 INFO  shutting down Metals[0m
+[0m2021.07.25 13:10:03 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.58.2.[0m
+[0m2021.07.25 13:10:04 INFO  time: initialize in 0.91s[0m
+[0m2021.07.25 13:10:05 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.25 13:10:05 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.25 13:14:08 INFO  shutting down Metals[0m
+[0m2021.07.25 18:13:04 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.58.2.[0m
+[0m2021.07.25 18:13:11 INFO  time: initialize in 6.41s[0m
+[0m2021.07.25 18:13:11 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.25 18:13:11 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.25 18:20:41 INFO  shutting down Metals[0m
+[0m2021.08.03 12:53:21 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.58.2.[0m
+[0m2021.08.03 12:53:22 INFO  time: initialize in 0.71s[0m
+[0m2021.08.03 12:53:22 WARN  Build server is not auto-connectable.[0m
+[0m2021.08.03 12:53:22 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.08.03 15:54:20 INFO  shutting down Metals[0m
+[0m2021.08.09 10:24:07 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.58.2.[0m
+[0m2021.08.09 10:24:08 INFO  time: initialize in 1.05s[0m
+[0m2021.08.09 10:24:09 WARN  Build server is not auto-connectable.[0m
+[0m2021.08.09 10:24:09 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.08.09 18:52:31 INFO  shutting down Metals[0m
+[0m2021.08.10 09:28:44 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.59.0.[0m
+[0m2021.08.10 09:28:45 INFO  time: initialize in 0.75s[0m
+[0m2021.08.10 09:28:45 WARN  Build server is not auto-connectable.[0m
+[0m2021.08.10 09:28:45 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+ago 10, 2021 9:29:41 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMAÇÕES: Unsupported notification method: $/setTrace
+ago 10, 2021 9:29:41 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMAÇÕES: Unsupported notification method: $/setTrace
+[0m2021.08.10 09:34:00 INFO  shutting down Metals[0m
+[0m2021.08.13 18:08:34 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.59.0.[0m
+[0m2021.08.13 18:08:35 INFO  time: initialize in 0.85s[0m
+[0m2021.08.13 18:08:35 WARN  Build server is not auto-connectable.[0m
+[0m2021.08.13 18:08:35 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.08.13 18:10:32 INFO  shutting down Metals[0m
+[0m2021.09.30 08:35:54 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.59.0.[0m
+[0m2021.09.30 08:35:55 INFO  time: initialize in 0.7s[0m
+[0m2021.09.30 08:35:55 WARN  Build server is not auto-connectable.[0m
+[0m2021.09.30 08:35:55 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+set 30, 2021 8:35:58 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMAÇÕES: Unsupported notification method: $/setTrace
+[0m2021.09.30 08:51:50 INFO  shutting down Metals[0m
+[0m2021.09.30 14:35:28 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.60.2.[0m
+[0m2021.09.30 14:35:28 INFO  time: initialize in 0.58s[0m
+[0m2021.09.30 14:35:29 WARN  Build server is not auto-connectable.[0m
+[0m2021.09.30 14:35:29 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.09.30 15:28:04 INFO  shutting down Metals[0m
+[0m2022.01.07 16:48:24 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender' for client Visual Studio Code 1.62.3.[0m
+[0m2022.01.07 16:48:24 INFO  time: initialize in 0.75s[0m
+[0m2022.01.07 16:48:25 WARN  Build server is not auto-connectable.[0m
+[0m2022.01.07 16:48:25 WARN  no build tool detected in workspace 'C:\Users\teodo\OneDrive\Desktop\KTH\7th_8th_Period\Master_Thesis\Vocoder-WaveGLOW\wavebender'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2022.01.07 17:38:26 INFO  shutting down Metals[0m
