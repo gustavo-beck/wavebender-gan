@@ -16,9 +16,18 @@
 [nvidia_waveglow_link]: https://drive.google.com/file/d/1rpK8CzAAirq9sWZhe9nlfvxMF1dRgFbF/view
 [hifi_link]: https://github.com/jik876/hifi-gan
 
-
-This tutorial and repo is under construction.
-
 This is the official code repository for the paper [Wavebender GAN: An architecture for phonetically meaningful speech manipulation][paper_link].
 
 For audio examples, visit our [demo page][demo_page].
+
+
+---------
+
+##### Data
+All the 13100 audio samples from the [LJ speech][ljspeech_link] data set should be stored in data/wavs/. Then they should be split and the results should be stored in wavebender_features_data/train/, wavebender_features_data/test/. In these folders there are .txt files with the corresponding audios filed for each data set.
+
+##### Tacotron 2
+Before start training you need to download waveglow_256channels_universal_v5.pt and save it in the main folder and in the tacotron2 folder. You should have both copies
+
+##### Training
+Wavebender Net and GAN are trained separetelly. Therefore, you can train each one of them by running train_wavebender_net.py or train_wavebender_gan.py. Don't forget to have the data already in the correct format to run them.
